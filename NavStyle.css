@@ -1,0 +1,227 @@
+header{
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr); */
+    width: 100%;
+    height: 75vh; 
+    background-image: url("https://www.msc.com/-/media/images/msc-cargo/vessels/2023/msc-michelle-cappellini-in-sunset-view.jpg?rev=8f8cd0bc304542cb828bf50ca29c4519?w=1920&hash=D6FB955052ABF32163674997FDE584BE");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.NavContainer1{
+    padding: 20px;
+}
+
+.btn img{
+    color: black;
+}
+
+.NavContainerChild2{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 20px;
+}
+
+.NavContainerChild2 span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.NavContainerChild2 p{
+    font-size: 25px;
+    font-weight: 10px;
+}
+
+.NavContainerChild3{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    padding: 20px;
+}
+
+.NavContainerChild3 img{
+    border-radius: 50%;
+}
+
+.NavContainer2{
+    place-items: end;
+    padding: 100px;
+    border-radius: 15%;
+}
+
+.NavContainer2 input{
+    width: 35vw;
+    height: 10vh;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.813);
+    color: black;
+    font-weight: bold;
+}
+
+.NavContainer2 button{
+    border-radius: 8%;
+    margin-left: 20px;
+    padding: 10px;
+    border: none;
+}
+
+.NavContainer2 input :focus{
+    outline: none;
+}
+
+@media (max-width: 1024px) {
+    header {
+        height: 65vh;
+    }
+
+    .NavContainer1 {
+        grid-template-columns: 1fr 2fr 1fr;
+        padding: 15px;
+    }
+
+    .NavContainerChild2 span {
+        font-size: 25px;
+    }
+
+    .NavContainerChild2 p {
+        font-size: 20px;
+    }
+
+    .NavContainerChild3 {
+        gap: 15px;
+    }
+
+    .NavContainer2 {
+        padding: 80px;
+    }
+
+    .NavContainer2 input {
+        width: 60vw;
+        height: 8vh;
+    }
+
+    .NavContainer2 button {
+        margin-left: 15px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 60vh;
+    }
+
+    .NavContainer1 {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .NavContainerChild2 {
+        padding: 15px;
+    }
+
+    .NavContainerChild2 span {
+        font-size: 22px;
+    }
+
+    .NavContainerChild2 p {
+        font-size: 18px;
+    }
+
+    .NavContainerChild3 {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .NavContainer2 {
+        padding: 50px;
+        text-align: center;
+    }
+
+    .NavContainer2 input {
+        width: 70vw;
+        height: 7vh;
+    }
+
+    .NavContainer2 button {
+        margin-left: 10px;
+        padding: 7px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 50vh;
+    }
+
+    .NavContainer1 {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .NavContainerChild2 {
+        padding: 10px;
+    }
+
+    .NavContainerChild2 span {
+        font-size: 20px;
+    }
+
+    .NavContainerChild2 p {
+        font-size: 16px;
+    }
+
+    .NavContainerChild3 {
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .NavContainer3 img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .NavContainer2 {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .NavContainer2 input {
+        width: 80vw;
+        height: 6vh;
+    }
+
+    .NavContainer2 button {
+        margin-left: 5px;
+        padding: 6px;
+    }
+}
+
+@media (max-width: 360px) {
+    header {
+        height: 45vh;
+    }
+
+    .NavContainerChild2 span {
+        font-size: 18px;
+    }
+
+    .NavContainerChild2 p {
+        font-size: 14px;
+    }
+
+    .NavContainer2 input {
+        width: 85vw;
+        height: 5.5vh;
+    }
+
+    .NavContainer2 button {
+        padding: 5px;
+    }
+}
